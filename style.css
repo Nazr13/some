@@ -1,69 +1,87 @@
 body {
     font-family: sans-serif;
-    background: black;
+    background-color: black;
 }
 
 header {
-    background-color: white;
-    padding: 20px;
-    height: 50px;
+    justify-content: space-between;
+    padding: 8px;
+    margin-bottom: 20px;
+    display: flex;
 }
 
-header img{
-    height: 50px;
-    width: 50px;
-}
-
-header a{
-    background-color: #EF930A;
+.button {
+    background-color: #8643D6;
     color: black;
     text-decoration: none;
-    font-size: 20px;
-    border: 1px solid #EF930A;
-    border-radius: 30px;
-    padding: 10px;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+    display: flex;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
 }
 
 h1 {
-    background-color: white;
-    color: #C78300;
     text-align: center;
-    font-size: 40px;
-    padding: 10px;
+    color: white;
+    font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 24px;
+}
+
+.info {
+    flex-wrap: wrap;
+    width: 1100px;
     margin: 50px;
+    display: flex;
 }
 
-h1 img {
-    width: 248px;
-    height: 213px;
-    border: 20px solid black;
-    margin: 5px;
+article {
+    background-color: white;
+    padding: 40px 15px 40px 15px;
+    width: 400px;
+    margin: 10px;
 }
 
-p img {
-    width: 366px;
-    height: 246px;
-    padding: 30px;
-
+.article-but {
+    text-decoration: none;
+    background-color: #006A55;
+    color: black;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
 }
 
 footer {
-    background-color: #ECDB9E;
+    background-color: #006A55;
     padding: 10px;
-    font-size: 20px;
+    display: flex;
+    justify-content: flex-start;
 }
 
-.logo{
-    float: left;
+footer a {
+    margin-right: 30px;
+    margin-top: 10px;
 }
 
-.courses{
-    float: left;
-    margin-top: 15px;
-    margin-left: 10px;
-}
-
-.trial_lessons{
-    float: right;
-    margin-top: 15px;
+footer p {
+    font-size: 24px;
 }
