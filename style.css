@@ -10,6 +10,10 @@ header {
     display: flex;
 }
 
+header img {
+    height: 30px;
+}
+
 .button {
     background-color: #8643D6;
     color: black;
